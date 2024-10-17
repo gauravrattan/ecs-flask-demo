@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-
+#health check
 @app.route('/health', methods=['GET'])
 def health():
     return jsonify({"status": "healthy"}), 200
