@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 # Dummy token for demonstration purposes
-VALID_TOKEN = "your_secret_token"
+VALID_TOKEN = "asdf1234qwer"
 
 # Health check
 @app.route('/health', methods=['GET'])
